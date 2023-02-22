@@ -1,0 +1,285 @@
+* {
+    box-sizing:content-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    cursor: pointer;
+}
+
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    column-fill: white;
+    color: white;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255,.1);
+    border-radius: 35%;
+    
+}
+.nav img{
+    width: 40;
+    vertical-align: middle;
+
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 100%;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    color: white;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+
+body{
+    background-color: #191919;
+    display: grid;
+}
+
+.header{
+    background-color: #0a090f;
+    display: inline;
+    text-align: center;
+    vertical-align: middle; 
+    width: 100%;
+    top: 0px;  
+}
+
+.header li{
+    display: inline-block;
+    padding: 0em;
+    column-fill: white;
+    text-decoration: none;  
+    
+}
+
+.header li{
+    padding: 0 1%;
+    font-size: 1.3em;
+    font-weight: 700;
+    
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.landingpage{
+    display: flex;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.landingpage-img{
+    margin-top: 6em;
+    border-radius:25%;
+    padding: 5em;
+    align-items: center;
+    width: 900;
+    
+}
+
+.landingpage-txt{
+    float: right;
+    margin-top: 3em;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: fantasy, papyrus;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    cursor: default;
+    
+}
+.heading{
+    font-family: gabriola;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding: 0em;
+    cursor:default;
+    text-decoration: underline;
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+
+
+.content-section{
+    display: flex;
+    margin: .5em;
+    cursor: default;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 1.5em;
+}
+
+.pfp-info{
+    align-items: center;
+    
+}
+
+.pfp{
+    padding: 3em;
+    width: 360;
+}
+
+.sps{
+    float: right;
+    margin: 2em 0;
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-family: fantasy, papyrus;
+    align-items: center;
+    vertical-align: middle;
+    color: #ff1a1a;
+
+    
+}
+
+.intro{
+    color: white;
+    font-size: 0.8em;
+}
+
+.main-footer {
+    background-color: #0a090f;
+    color: white;
+    width: 100%;
+    bottom: 20px;
+    min-height: 50;
+    vertical-align: text-bottom;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-nav{
+    flex-grow: 4;
+    text-align: center;
+}
+
+.footer-nav li{
+    vertical-align: bottom;
+}
+
+.footer-nav img{
+    width: 40;
+    vertical-align: bottom;
+}
+
+.nav{
+    padding: .5em;
+    vertical-align: bottom
+}
+
+.footer-nav a{
+    text-decoration: none;
+}
+
+.grp {
+    color: white;
+    display: block;
+    padding: 3em;
+}
+
+.experience{
+    font-family:  fantasy, papyrus;
+    vertical-align:text-top;
+    text-align: center;
+}
+.experience h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+
+}
+
+.last h3{
+    padding-bottom: 2.2em;
+}
+
+.experience h4{
+    font-size: 1em;
+}
+
+.experience .position{
+    font-size: 1.1em;
+}
+
+.grp img{
+    width: 200;
+}
+
+.skills{
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+.skill{
+    text-align: center;
+    color: white;
+    font-family: fantasy, papyrus;
+}
+
+.skills img{
+    width: 100;
+    padding: 2.2em;
+}
+
+.projects{
+    display: block;
+    color: white;
+    font-family: fantasy, papyrus;
+}
+
+.project-title{
+    padding-top: 0;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.projects iframe{
+    width: 700;
+    text-align: center;
+}
+
+.projects a{
+    text-decoration: none;
+    color: white;
+}
+
+.project-content{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.about-heading{
+    margin-top: 1em;
+}
